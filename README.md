@@ -14,16 +14,22 @@ The scripts for analysis expert driver dataset.
 3. 数据可视化：我们使用上述分类后的的数据分别对速度、加速度、jerk、方向转动比率和方向盘转动距离进行了一系列的可视化尝试。（代码可参考 普通可视化 speed_visulization.py，带截图的可视化 speed_visulization_withfig.py， 带插值的可视化 speed_visulization_interpolation.py 或 重新编写）数据放在位置：Can-bus Dataset\2_datapreprocess_visulization\ 的文件夹内
 [Image]
   - 效果如下：
-  速度
-[Image]
-  加速度
-[Image]
-  jerk
-[Image]
-  方向盘比率
-[Image]
-  方向盘转动距离
-[Image]
-  不舒适分析：加速度频率分布图+工况轨迹
-[Image]
+    速度
+    [Image]
+    加速度
+    [Image]
+    jerk
+    [Image]
+    方向盘比率
+    [Image]
+    方向盘转动距离
+    [Image]
+    不舒适分析：加速度频率分布图+工况轨迹
+    [Image]
 4. 显著性分析（工况）：我们结合SPSS数据和可视化结果，对部分常用的舒适度评估参数进行了纵向以及横向数据的显著性可视化。
+
+实例：
+
+![](https://github.com/yyt1208732230/apollo_ORED_analysis/blob/main/driver%20behaviours/steering_torque.png)
+
+![](https://github.com/yyt1208732230/apollo_ORED_analysis/blob/main/acceleration_histogram_trajectory.png)
